@@ -9,6 +9,7 @@ import { NavbarComponent } from '../app/include/navbar/navbar.component';
 import { CalanderComponent } from './templates/calander/calander.component';
 import { TimeLineComponent } from './templates/time-line/time-line.component';
 import { SignupComponent } from './templates/signup/signup.component';
+import { HomeComponent } from './templates/home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SignupComponent } from './templates/signup/signup.component';
     NavbarComponent,
     CalanderComponent,
     TimeLineComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent
     
   ],
   imports: [
